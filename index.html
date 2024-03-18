@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <!-- For fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+        <!-- Internal CSS -->
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <!-- Internal JS -->
+        <script type="text/javascript" src="./js/main.js"></script>
+    </head>
+    <title>Japanese Basics</title>
+    <body>
+        <!-- Header section -->
+        <header>
+            <div class="navbar">
+                <ul>
+                    <li onclick="scrollToSection('about-app')">
+                        About
+                    </li>
+                    <li>
+                        Support
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <!-- Home Section -->
+        <section id="home">
+            <div class="scroll-bar" onclick="scrollButtonClicked()">
+                <p class="chevron">
+            </div>
+            <img class="image-home-background" src="./image/main-background.jpg">
+            <div class="container-home-title-logo">
+                <div class="container-home-title-left w2-1">
+                    <h1 class="home-main-title">
+                        <p>Learning</p>
+                        <p>Japanese</p>
+                        <p>Simplified.</p>
+                    </h1>
+                </div>
+                <div class="contain-home-title-right">
+                    <img class="image-home-mainLogo" src="./image/Japanese Basics-logos_transparent.png">  
+                </div>                                           </div>
+            </div>
+        </section>
+        <!-- About section -->
+        <section id="about-app">
+            <div class="about-app-container">
+                <div class="about-app-picture-container w4-1">
+                    <img src="./image/screenshot/Home.png">
+                    <img src="./image/screenshot/Game.png">
+                </div>
+                <div class="about-app-text-container w2-1">
+                <h1>About the App</h1>
+                    <p>Do you want to learn basic Japanese?</p>
+                    <p>If you want to learn basic Japanese words, then this will be your app!  This app presents you with features like Words of the Day, lessons separated in various categories, and even games!  Download now in the App Store.</p>
+                    <div class="about-app-text-info">
+                        <div class="about-app-text-info-left w2-1">
+                            <p>
+                                <span class="about-app-text-info-label">Platform:</span> iOS
+                            </p>
+                            <p>
+                                <span class="about-app-text-info-label">Supported iOS Version:</span> 17.0 and above
+                            </p>
+                            <p>
+                                <span class="about-app-text-info-label">Current Version:</span> 1.4
+                            </p>
+                        </div>
+                        <div class="about-app-text-info-right w2-1">
+                            <p>
+                                <span class="about-app-text-info-label">Fee:</span> Free
+                            </p>
+                            <p>
+                                <span class="about-app-text-info-label">Available in:</span> App Store
+                            </p>
+                            <p>
+                                <span class="about-app-text-info-label"></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+    </body>
+</html>
