@@ -22,6 +22,12 @@ blockquote {
 .w4-1 {
     width: 25%;
 }
+.w4-3 {
+    width: 75%;
+}
+.w3-1 {
+    width: 33%;
+}
 .w2-1 {
     width: 50%;
 }
@@ -195,5 +201,110 @@ header {
     color: #fff;
 }
 .about-app-text-info-label {
+    font-weight: 800;
+}
+
+/* features section */
+.features-container {
+    background: #303030;
+    width: 100%;
+    margin: 0;
+    padding: 10%;
+}
+.features-title-container {
+    float: right;
+    padding-bottom: 5vh;
+}
+.features-title-container h1 {
+    padding-left: 4vw;
+}
+.feature-container {
+    width: 100%;
+    display: flex;
+    padding-bottom: 5vh;
+}
+.game-picture-container {
+    float: left;
+    padding: 0;
+}
+.features-picture-container img {
+    width: 95%;
+}
+.features-text-container {
+    padding-left: 4vw;
+  }
+.features-container h1 {
+    font-size: 2.5vw;
+    line-height: 2.0vw;
+    padding-bottom: 2vw;
+}
+.features-container h1, h2 {
+    color: #fff;
+    margin: 0;
+}
+.features-text-container h2 {
+    color: #dadada;
+}
+.features-text-container p {
+    color: #ababab;
+}
+.features-text-container span {
+    color: #fff;
+}
+.features-text-info {
+    display: flex;
+    padding: 10px 0 10px 0;
+}
+.features-text-info-left {
+    color: #fff;
+}
+.features-text-info-right {
+    color: #fff;
+}
+.features-text-info-label {
+    font-weight: 800;
+}
+
+/* Support section */
+.support-container {
+    background: #7c7c7c;
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 10%;
+}
+.support-picture-container img {
+    width: 100%;
+    float: left;
+}
+.support-text-container {
+    padding-left: 4vw;
+  }
+.support-text-container h1 {
+    font-size: 2.5vw;
+    line-height: 2.0vw;
+    padding-bottom: 2vw;
+}
+.support-text-container h1, h2 {
+    color: #fff;
+    margin: 0;
+}
+.support-text-container h2, p {
+    color: #ababab;
+}
+.support-text-container span {
+    color: #fff;
+}
+.support-text-info {
+    display: flex;
+    padding: 10px 0 10px 0;
+}
+.support-text-info-left {
+    color: #fff;
+}
+.support-text-info-right {
+    color: #fff;
+}
+.support-text-info-label {
     font-weight: 800;
 }
