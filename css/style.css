@@ -267,7 +267,7 @@ header {
 
 /* Support section */
 .support-container {
-    background: #7c7c7c;
+    background: #5d5d5d;
     display: flex;
     width: 100%;
     margin: 0;
@@ -306,5 +306,48 @@ header {
     color: #fff;
 }
 .support-text-info-label {
+    font-weight: 800;
+}
+/* privacy section */
+.privacy-container {
+    background: #4f4f4f;
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 10%;
+}
+.privacy-picture-container img {
+    width: 100%;
+    float: left;
+}
+.privacy-text-container {
+    padding-left: 4vw;
+  }
+.privacy-text-container h1 {
+    font-size: 2.5vw;
+    line-height: 2.0vw;
+    padding-bottom: 2vw;
+}
+.privacy-text-container h1, h2 {
+    color: #fff;
+    margin: 0;
+}
+.privacy-text-container h2, p {
+    color: #ffffff;
+}
+.privacy-text-container span {
+    color: #b1b1b1;
+}
+.privacy-text-info {
+    display: flex;
+    padding: 10px 0 10px 0;
+}
+.privacy-text-info-left {
+    color: #fff;
+}
+.privacy-text-info-right {
+    color: #fff;
+}
+.privacy-text-info-label {
     font-weight: 800;
 }
